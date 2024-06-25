@@ -3,20 +3,23 @@ main(){
 	
 	int i,j,k;
 	
-	for(i=0;i<=5;i++)
+	for(i=1;i<=5;i++)
 	{
-		for(j=0;j<=5;j++)
-		{
-			
-			if(i==5){
-				printf("*");
-			}
-			else
-			{
-				printf("*");
-			}
-			
+		if(i==1||i==0){
+			printf("*****");
 		}
+		else if(i==2||i==0){
+			printf("*   *");
+		}
+		else if(i==1||i==3){
+			printf("*****");
+		}
+		else{
+			printf("*  ");
+		}
+		
+		
+		
 		printf("\n");
 	}
 	
